@@ -1,0 +1,1136 @@
+/// @name Margin
+/// @group layout
+/// @since 2.15
+/// @example scss
+///   .m-0, .m-t-0, .m-r-0, .m-b-0, .m-l-0 // 0
+///   .m-xs, .m-t-xs, .m-r-xs, .m-b-xs, .m-l-xs // .6rem
+///   .m-sm, .m-t-sm, .m-r-sm, .m-b-sm, .m-l-sm // 1.2rem
+///   .m-md, .m-t-md, .m-r-md, .m-b-md, .m-l-md // 2.4rem
+///   .m-lg, .m-t-lg, .m-r-lg, .m-b-lg, .m-l-lg // 3.6rem
+///   .m-xl, .m-t-xl, .m-r-xl, .m-b-xl, .m-l-xl // 5.4rem
+///   .m-xxl, .m-t-xxl, .m-r-xxl, .m-b-xxl, .m-l-xxl // 7.2rem
+
+.m {
+
+  &-0 {
+    margin: map_get($margin, none);
+
+    &-a {
+      margin: 0 auto;
+    }
+  }
+
+  &-xs {
+    margin: map_get($margin, x-small);
+  }
+
+  &-sm {
+    margin: map_get($margin, small);
+  }
+
+  &-md {
+    margin: map_get($margin, medium);
+  }
+
+  &-lg {
+    margin: map_get($margin, large);
+  }
+
+  &-xl {
+    margin: map_get($margin, x-large);
+  }
+
+  &-xxl {
+    margin: map_get($margin, xx-large);
+  }
+
+  &-t {
+
+    &-0 {
+      margin-top: map_get($margin, none);
+    }
+
+    &-xs {
+      margin-top: map_get($margin, x-small);
+    }
+
+    &-sm {
+      margin-top: map_get($margin, small);
+    }
+
+    &-md {
+      margin-top: map_get($margin, medium);
+    }
+
+    &-lg {
+      margin-top: map_get($margin, large);
+    }
+
+    &-xl {
+      margin-top: map_get($margin, x-large);
+    }
+
+    &-xxl {
+      margin-top: map_get($margin, xx-large);
+    }
+  }
+
+  &-r {
+
+    &-0 {
+      margin-right: map_get($margin, none);
+    }
+
+    &-xs {
+      margin-right: map_get($margin, x-small);
+    }
+
+    &-sm {
+      margin-right: map_get($margin, small);
+    }
+
+    &-md {
+      margin-right: map_get($margin, medium);
+    }
+
+    &-lg {
+      margin-right: map_get($margin, large);
+    }
+
+    &-xl {
+      margin-right: map_get($margin, x-large);
+    }
+
+    &-xxl {
+      margin-right: map_get($margin, xx-large);
+    }
+  }
+
+  &-b {
+
+    &-0 {
+      margin-bottom: map_get($margin, none);
+    }
+
+    &-xs {
+      margin-bottom: map_get($margin, x-small);
+    }
+
+    &-sm {
+      margin-bottom: map_get($margin, small);
+    }
+
+    &-md {
+      margin-bottom: map_get($margin, medium);
+    }
+
+    &-lg {
+      margin-bottom: map_get($margin, large);
+    }
+
+    &-xl {
+      margin-bottom: map_get($margin, x-large);
+    }
+
+    &-xxl {
+      margin-bottom: map_get($margin, xx-large);
+    }
+  }
+
+  &-l {
+
+    &-0 {
+      margin-left: map_get($margin, none);
+    }
+
+    &-xs {
+      margin-left: map_get($margin, x-small);
+    }
+
+    &-sm {
+      margin-left: map_get($margin, small);
+    }
+
+    &-md {
+      margin-left: map_get($margin, medium);
+    }
+
+    &-lg {
+      margin-left: map_get($margin, large);
+    }
+
+    &-xl {
+      margin-left: map_get($margin, x-large);
+    }
+
+    &-xxl {
+      margin-left: map_get($margin, xx-large);
+    }
+  }
+}
+
+@include media(screen--sm) {
+
+  .sm-m {
+    /* margin for sm-up */
+
+    &-0 {
+      margin: map_get($margin, none);
+    }
+
+    &-xs {
+      margin: map_get($margin, x-small);
+    }
+
+    &-sm {
+      margin: map_get($margin, small);
+    }
+
+    &-md {
+      margin: map_get($margin, medium);
+    }
+
+    &-lg {
+      margin: map_get($margin, large);
+    }
+
+    &-xl {
+      margin: map_get($margin, x-large);
+    }
+
+    &-xxl {
+      margin: map_get($margin, xx-large);
+    }
+
+    /* margin top for md-up */
+
+    &-t {
+
+      &-0 {
+        margin-top: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-top: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-top: map_get($margin, small);
+      }
+
+      &-md {
+        margin-top: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-top: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-top: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-top: map_get($margin, xx-large);
+      }
+    }
+
+    /* margin right for md-up */
+
+    &-r {
+
+      &-0 {
+        margin-right: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-right: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-right: map_get($margin, small);
+      }
+
+      &-md {
+        margin-right: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-right: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-right: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-right: map_get($margin, xx-large);
+      }
+    }
+
+    /* margin bottom for md-up */
+
+    &-b {
+
+      &-0 {
+        margin-bottom: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-bottom: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-bottom: map_get($margin, small);
+      }
+
+      &-md {
+        margin-bottom: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-bottom: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-bottom: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-bottom: map_get($margin, xx-large);
+      }
+    }
+
+    /* margin left for md-up */
+
+    &-l {
+
+      &-0 {
+        margin-left: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-left: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-left: map_get($margin, small);
+      }
+
+      &-md {
+        margin-left: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-left: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-left: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-left: map_get($margin, xx-large);
+      }
+    }
+  }
+}
+
+@include media(screen--md) {
+
+  .md-m {
+    /* margin for md-up */
+
+    &-0 {
+      margin: map_get($margin, none);
+    }
+
+    &-xs {
+      margin: map_get($margin, x-small);
+    }
+
+    &-sm {
+      margin: map_get($margin, small);
+    }
+
+    &-md {
+      margin: map_get($margin, medium);
+    }
+
+    &-lg {
+      margin: map_get($margin, large);
+    }
+
+    &-xl {
+      margin: map_get($margin, x-large);
+    }
+
+    &-xxl {
+      margin: map_get($margin, xx-large);
+    }
+
+    /* margin top for md-up */
+
+    &-t {
+
+      &-0 {
+        margin-top: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-top: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-top: map_get($margin, small);
+      }
+
+      &-md {
+        margin-top: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-top: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-top: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-top: map_get($margin, xx-large);
+      }
+    }
+
+    /* margin right for md-up */
+
+    &-r {
+
+      &-0 {
+        margin-right: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-right: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-right: map_get($margin, small);
+      }
+
+      &-md {
+        margin-right: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-right: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-right: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-right: map_get($margin, xx-large);
+      }
+    }
+
+    /* margin bottom for md-up */
+
+    &-b {
+
+      &-0 {
+        margin-bottom: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-bottom: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-bottom: map_get($margin, small);
+      }
+
+      &-md {
+        margin-bottom: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-bottom: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-bottom: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-bottom: map_get($margin, xx-large);
+      }
+    }
+
+    /* margin left for md-up */
+
+    &-l {
+
+      &-0 {
+        margin-left: map_get($margin, none);
+      }
+
+      &-xs {
+        margin-left: map_get($margin, x-small);
+      }
+
+      &-sm {
+        margin-left: map_get($margin, small);
+      }
+
+      &-md {
+        margin-left: map_get($margin, medium);
+      }
+
+      &-lg {
+        margin-left: map_get($margin, large);
+      }
+
+      &-xl {
+        margin-left: map_get($margin, x-large);
+      }
+
+      &-xxl {
+        margin-left: map_get($margin, xx-large);
+      }
+    }
+  }
+}
+
+/// @name Padding
+/// @group layout
+/// @since 2.15
+/// @example scss
+///   .p-0 padding: 0
+///   .p-xs padding: .6rem
+///   .p-sm padding: 1.2rem
+///   .p-md padding: 2.4rem
+///   .p-lg padding: 3.6rem
+///   .p-xl padding: 5.4rem
+///   .p-xxl padding: 7.2rem
+///   .p-xxxl padding: 10.8rem
+
+.p {
+  /* padding */
+
+  &-0 {
+    padding: map_get($padding, none) !important;
+  }
+
+  &-xs {
+    padding: map_get($padding, x-small);
+  }
+
+  &-sm {
+    padding: map_get($padding, small);
+  }
+
+  &-md {
+    padding: map_get($padding, medium);
+  }
+
+  &-lg {
+    padding: map_get($padding, large);
+  }
+
+  &-xl {
+    padding: map_get($padding, x-large);
+  }
+
+  &-xxl {
+    padding: map_get($padding, xx-large);
+  }
+
+  &-xxxl {
+    padding: map_get($padding, xxx-large);
+  }
+
+  /* padding top */
+
+  &-t {
+
+    &-0 {
+      padding-top: map_get($padding, none);
+    }
+
+    &-xs {
+      padding-top: map_get($padding, x-small);
+    }
+
+    &-sm {
+      padding-top: map_get($padding, small);
+    }
+
+    &-md {
+      padding-top: map_get($padding, medium);
+    }
+
+    &-lg {
+      padding-top: map_get($padding, large);
+    }
+
+    &-xl {
+      padding-top: map_get($padding, x-large);
+    }
+
+    &-xxl {
+      padding-top: map_get($padding, xx-large);
+    }
+
+    &-xxxl {
+      padding-top: map_get($padding, xxx-large);
+    }
+  }
+
+  /* padding right */
+
+  &-r {
+
+    &-0 {
+      padding-right: map_get($padding, none);
+    }
+
+    &-xs {
+      padding-right: map_get($padding, x-small);
+    }
+
+    &-sm {
+      padding-right: map_get($padding, small);
+    }
+
+    &-md {
+      padding-right: map_get($padding, medium);
+    }
+
+    &-lg {
+      padding-right: map_get($padding, large);
+    }
+
+    &-xl {
+      padding-right: map_get($padding, x-large);
+    }
+
+    &-xxl {
+      padding-right: map_get($padding, xx-large);
+    }
+
+    &-xxxl {
+      padding-right: map_get($padding, xxx-large);
+    }
+  }
+
+  /* padding bottom */
+
+  &-b {
+
+    &-0 {
+      padding-bottom: map_get($padding, none);
+    }
+
+    &-xs {
+      padding-bottom: map_get($padding, x-small);
+    }
+
+    &-sm {
+      padding-bottom: map_get($padding, small);
+    }
+
+    &-md {
+      padding-bottom: map_get($padding, medium);
+    }
+
+    &-lg {
+      padding-bottom: map_get($padding, large);
+    }
+
+    &-xl {
+      padding-bottom: map_get($padding, x-large);
+    }
+
+    &-xxl {
+      padding-bottom: map_get($padding, xx-large);
+    }
+
+    &-xxxl {
+      padding-bottom: map_get($padding, xxx-large);
+    }
+  }
+
+  /* padding left */
+
+  &-l {
+
+    &-0 {
+      padding-left: map_get($padding, none);
+    }
+
+    &-xs {
+      padding-left: map_get($padding, x-small);
+    }
+
+    &-sm {
+      padding-left: map_get($padding, small);
+    }
+
+    &-md {
+      padding-left: map_get($padding, medium);
+    }
+
+    &-lg {
+      padding-left: map_get($padding, large);
+    }
+
+    &-xl {
+      padding-left: map_get($padding, x-large);
+    }
+
+    &-xxl {
+      padding-left: map_get($padding, xx-large);
+    }
+
+    &-xxxl {
+      padding-left: map_get($padding, xxx-large);
+    }
+  }
+}
+
+@include media(screen--sm) {
+
+  .sm-p {
+    /* padding */
+
+    &-0 {
+      padding: map_get($padding, none) !important;
+    }
+
+    &-sm {
+      padding: map_get($padding, small);
+    }
+
+    &-md {
+      padding: map_get($padding, medium);
+    }
+
+    &-lg {
+      padding: map_get($padding, large);
+    }
+
+    &-xl {
+      padding: map_get($padding, x-large);
+    }
+
+    &-xxl {
+      padding: map_get($padding, xx-large);
+    }
+
+    &-xxxl {
+      padding: map_get($padding, xxx-large);
+    }
+
+    /* padding top */
+
+    &-t {
+
+      &-0 {
+        padding-top: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-top: map_get($padding, small);
+      }
+
+      &-md {
+        padding-top: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-top: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-top: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-top: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-top: map_get($padding, xxx-large);
+      }
+    }
+
+    /* padding right */
+
+    &-r {
+
+      &-0 {
+        padding-right: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-right: map_get($padding, small);
+      }
+
+      &-md {
+        padding-right: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-right: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-right: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-right: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-right: map_get($padding, xxx-large);
+      }
+    }
+
+    /* padding bottom */
+
+    &-b {
+
+      &-0 {
+        padding-bottom: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-bottom: map_get($padding, small);
+      }
+
+      &-md {
+        padding-bottom: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-bottom: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-bottom: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-bottom: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-bottom: map_get($padding, xxx-large);
+      }
+    }
+
+    /* padding left */
+
+    &-l {
+
+      &-0 {
+        padding-left: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-left: map_get($padding, small);
+      }
+
+      &-md {
+        padding-left: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-left: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-left: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-left: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-left: map_get($padding, xxx-large);
+      }
+    }
+  }
+}
+
+@include media(screen--xs) {
+
+  .xs-p {
+    /* padding */
+
+    &-0 {
+      padding: map_get($padding, none) !important;
+    }
+
+    &-sm {
+      padding: map_get($padding, small);
+    }
+
+    &-md {
+      padding: map_get($padding, medium);
+    }
+
+    &-lg {
+      padding: map_get($padding, large);
+    }
+
+    &-xl {
+      padding: map_get($padding, x-large);
+    }
+
+    &-xxl {
+      padding: map_get($padding, xx-large);
+    }
+
+    &-xxxl {
+      padding: map_get($padding, xxx-large);
+    }
+
+    /* padding top */
+
+    &-t {
+
+      &-0 {
+        padding-top: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-top: map_get($padding, small);
+      }
+
+      &-md {
+        padding-top: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-top: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-top: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-top: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-top: map_get($padding, xxx-large);
+      }
+    }
+
+    /* padding right */
+
+    &-r {
+
+      &-0 {
+        padding-right: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-right: map_get($padding, small);
+      }
+
+      &-md {
+        padding-right: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-right: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-right: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-right: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-right: map_get($padding, xxx-large);
+      }
+    }
+
+    /* padding bottom */
+
+    &-b {
+
+      &-0 {
+        padding-bottom: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-bottom: map_get($padding, small);
+      }
+
+      &-md {
+        padding-bottom: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-bottom: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-bottom: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-bottom: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-bottom: map_get($padding, xxx-large);
+      }
+    }
+
+    /* padding left */
+
+    &-l {
+
+      &-0 {
+        padding-left: map_get($padding, none);
+      }
+
+      &-sm {
+        padding-left: map_get($padding, small);
+      }
+
+      &-md {
+        padding-left: map_get($padding, medium);
+      }
+
+      &-lg {
+        padding-left: map_get($padding, large);
+      }
+
+      &-xl {
+        padding-left: map_get($padding, x-large);
+      }
+
+      &-xxl {
+        padding-left: map_get($padding, xx-large);
+      }
+
+      &-xxxl {
+        padding-left: map_get($padding, xxx-large);
+      }
+    }
+  }
+}
+
+/// @name Width
+/// @group layout
+/// @since 2.15
+/// @example scss
+///   .w-auto auto
+///   .w-full 100%
+///   .w-25 25%
+///   .w-33 33.3333333%
+///   .w-50 50%
+///   .w-66 66.6666667%
+///   .w-75 75%
+
+.w {
+
+  &-auto {
+    width: auto;
+  }
+
+  &-full {
+    width: 100%;
+  }
+
+  &-25 {
+    width: 25%;
+  }
+
+  &-33 {
+    width: calc(100% / 3);
+  }
+
+  &-50 {
+    width: 50%;
+  }
+
+  &-66 {
+    width: calc((100% / 3) * 2);
+  }
+
+  &-75 {
+    width: 75%;
+  }
+}
+
+@include media(screen--sm) {
+
+  .sm-w {
+
+    &-auto {
+      width: auto;
+    }
+
+    &-full {
+      width: 100%;
+    }
+
+    &-25 {
+      width: 25%;
+    }
+
+    &-33 {
+      width: calc(100% / 3);
+    }
+
+    &-50 {
+      width: 50%;
+    }
+
+    &-66 {
+      width: calc((100% / 3) * 2);
+    }
+
+    &-75 {
+      width: 75%;
+    }
+  }
+}
+
+/// @name Height
+/// @group layout
+/// @since 2.15
+/// @example scss
+///   .h-auto auto
+///   .h-full 100%
+
+.h {
+
+  // .h-a deprecated, use .h-auto instead
+
+  &-a {
+    height: auto;
+  }
+
+  &-auto {
+    height: auto;
+  }
+
+  &-full {
+    height: 100%;
+  }
+}

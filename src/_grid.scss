@@ -1,0 +1,10 @@
+.mw {
+
+  &-max {
+    max-width: map-get($wrapper-width, max);
+  }
+
+  &-full {
+    max-width: 100%;
+  }
+}

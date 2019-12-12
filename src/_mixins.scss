@@ -1,0 +1,63 @@
+/**
+ *  MEDIA
+ *
+    USE:
+
+    @include media(screen--md) {} if you want:
+       @media screen and (min-width: $width--sm) {}
+
+    @include media(screen--md, only) {} if you want:
+       @media screen and (min-width: $width--sm) and (max-width: $width--md_max) { {}
+
+    @include media(screen--md, max) {} if you want:
+       @media screen and (max-width: $width--md_max) { {}
+
+**/
+
+// media
+// ___________________________________________
+
+$width--xs: 480px;
+$width--xs_max: 767px;
+$width--sm: $width--xs_max + 1px;
+$width--sm_max: 991px;
+$width--md: $width--sm_max + 1px;
+$width--md_max: 1199px;
+$width--lg: $width--md_max + 1px;
+$width--lg_max: 1300px;
+
+@mixin media($screen, $mode: 'min') {
+
+  $mins: (
+    screen--xs: $width--xs,
+    screen--sm: $width--sm,
+    screen--md: $width--md,
+    screen--lg: $width--lg
+  );
+
+  $maxs: (
+    screen--xs: $width--xs_max,
+    screen--sm: $width--sm_max,
+    screen--md: $width--md_max,
+    screen--lg: $width--lg_max
+  );
+
+  @if map-has-key($mins, $screen) {
+    $min: map-get($mins, $screen);
+    $max: if($mode == 'only', map-get($maxs, $screen), -1);
+
+    @if ($max == -1) {
+      @media screen and (min-width: $min) {
+        @content;
+      }
+    } @else {
+      @media screen and (min-width: $min) and (max-width: $max) {
+        @content;
+      }
+    }
+  } @else {
+    @media screen and (min-width: $screen) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "functional-css",
+  "version": "0.1.0",
+  "description": "Functional CSS is the practice of using small, immutable, and explicitly named utility classes to construct components.",
+  "style": "functional-css.css",
+  "main": "functional-css.css",
+  "scripts": {
+    "build": "node-sass ./src/functional-css.scss -o dist/",
+    "minify": "cleancss dist/functional-css.css -o dist/functional-css.min.css --source-map"
+  },
+  "keywords": [
+    "css",
+    "functional css",
+    "functional css framework"
+  ],
+  "files": [
+    "/dist/**/*"
+  ],
+  "author": "GEM team",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "clean-css-cli": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oaki/functional-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oaki/functional-css/issues"
+  },
+  "homepage": "https://github.com/oaki/functional-css",
+  "dependencies": {}
+}

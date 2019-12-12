@@ -1,0 +1,73 @@
+/**
+ * THIS FILE IS GENERATED, DO NOT TOUCH!
+ */
+
+/// Timing
+$time: (base: .45s, short: .25s);
+
+/// Sizing variables
+$spacing: (none: 0, x-small: .6rem, small: 1.2rem, medium: 2.4rem, large: 3.6rem, x-large: 5.4rem, xx-large: 7.2rem, xxx-large: 10.8rem);
+$margin: (none: 0, x-small: .6rem, small: 1.2rem, medium: 2.4rem, large: 3.6rem, x-large: 5.4rem, xx-large: 7.2rem, xxx-large: 10.8rem);
+$padding: (none: 0, x-small: .6rem, small: 1.2rem, medium: 2.4rem, large: 3.6rem, x-large: 5.4rem, xx-large: 7.2rem, xxx-large: 10.8rem);
+
+/// Typography variables
+$font-weight: (light: 300, regular: 400, semibold: 600, bold: 700);
+$font-size: (h1: 3.6rem, h2: 3.2rem, h3: 2.4rem, h4: 1.8rem, base: 1.6rem, h5: 1.5rem, h6: 1.4rem, sm: 1.2rem, xs: 1rem);
+$line-height: (large: 1.75, base: 1.5, small: 1.25);
+
+/// Border radius variables
+$border-radius: (base: .4rem);
+
+/// Media Variables
+$breakpoints: (xs: 480, sm: 768, md: 992, lg: 1200, xl: 1301);
+
+/// Wrapper max-widths
+$wrapper-width: (max: 120rem, md: 100rem, sm: 83rem, xs: 77rem);
+
+/// Color names based on http://chir.ag/projects/name-that-color
+$color-astronaut-blue: #00385f;
+$color-regal-blue: #00497b;
+$color-bahama-blue: #005b94;
+$color-allports: #0069a7;
+$color-deep-cerulean: #0078b4;
+$color-shakespeare: #40a3d5;
+$color-malibu: #83d0f5;
+$color-sail: #bce4fa;
+$color-hawkes-blue: #dff2fd;
+$color-monza: #e30613;
+$color-black: #000;
+$color-white: #fff;
+$color-prussian-blue: #002243;
+$color-midnight-blue: #036;
+$color-cello: #1f4266;
+$color-chathams-blue: #1b4875;
+$color-chambray: #335c85;
+$color-hippie-blue: #5b83ae;
+$color-waikawa-gray: #5b799b;
+$color-casper: #aabacc;
+$color-geyser: #ccd7e1;
+$color-mystic: #e6ebf0;
+$color-catskill-white: #f5f8fa;
+$color-tropical-blue: #cde6f8;
+$color-lily-white: #e2f4fe;
+$color-sangria: #9e0000;
+$color-red: #ea0000;
+$color-flush-orange: #ff7900;
+$color-orange-peel: #ffa200;
+$color-limed-spruce: #313a45;
+$color-dove-gray: #666;
+$color-dusty-gray: #999;
+$color-mercury: #e5e5e5;
+$color-fuel-yellow: #eca72c;
+$color-glacier: #84c0c6;
+$color-mountain-meadow: #14c376;
+$color-aqua-haze: #f4f8f9;
+$color-shuttle-gray: #58646f;
+$color-pale-sky: #6b7783;
+
+/// Horizontal position of carousel navigation arrows
+$slider-arrow-pos: 7rem;
+
+/// Grid gutter
+$grid-gutter: 3rem;
+$grid-gutter-px: 30;
