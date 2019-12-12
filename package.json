@@ -2,8 +2,8 @@
   "name": "functional-css",
   "version": "0.1.0",
   "description": "Functional CSS is the practice of using small, immutable, and explicitly named utility classes to construct components.",
-  "style": "functional-css.css",
-  "main": "functional-css.css",
+  "style": "dist/functional-css.min.css",
+  "main": "dist/functional-css.min.css",
   "scripts": {
     "build": "node-sass ./src/functional-css.scss -o dist/ && npm run minify",
     "minify": "cleancss dist/functional-css.css -o dist/functional-css.min.css --source-map"
