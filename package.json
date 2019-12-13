@@ -5,7 +5,7 @@
   "style": "dist/functional-css.min.css",
   "main": "dist/functional-css.min.css",
   "scripts": {
-    "build": "node-sass ./src/functional-css.scss -o dist/ && npm run minify",
+    "build": "node build.js && node-sass ./src/functional-css.scss -o dist/ && npm run minify",
     "minify": "cleancss dist/functional-css.css -o dist/functional-css.min.css --source-map"
   },
   "keywords": [
