@@ -1,11 +1,12 @@
 {
-  "name": "functional-css",
+  "name": "functional-css-generator",
   "version": "0.1.0",
   "description": "Functional CSS is the practice of using small, immutable, and explicitly named utility classes to construct components.",
   "style": "dist/functional-css.min.css",
   "main": "dist/functional-css.min.css",
   "scripts": {
-    "build": "node build.js && node-sass ./src/functional-css.scss -o dist/ && npm run minify",
+    "build": "node src/index.js && npm run groupMediaQuery && npm run minify",
+    "groupMediaQuery": "group-css-media-queries ./dist/functional-css.css ./dist/functional-css.css",
     "minify": "cleancss dist/functional-css.css -o dist/functional-css.min.css --source-map"
   },
   "keywords": [
@@ -30,5 +31,7 @@
     "url": "https://github.com/oaki/functional-css/issues"
   },
   "homepage": "https://github.com/oaki/functional-css",
-  "dependencies": {}
+  "dependencies": {
+    "group-css-media-queries": "^1.4.1"
+  }
 }
