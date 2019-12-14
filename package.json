@@ -1,5 +1,5 @@
 {
-  "name": "functional-css-generator",
+  "name": "functional-css-framework",
   "version": "0.1.0",
   "description": "Functional CSS is the practice of using small, immutable, and explicitly named utility classes to construct components.",
   "style": "dist/functional-css.min.css",
