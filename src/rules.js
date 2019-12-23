@@ -71,6 +71,17 @@ const rules = [
   },
 
   {
+    name: "position",
+    values: [
+      {className: "pos-r", value: "relative"},
+      {className: "pos-a", value: "absolute"},
+      {className: "pos-f", value: "fixed"},
+      {className: "pos-s", value: "static"},
+    ],
+    breakpoints
+  },
+
+  {
     name: "flex-direction",
     values: ["column", "row"]
   },
