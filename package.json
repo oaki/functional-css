@@ -1,6 +1,6 @@
 {
   "name": "functional-css-framework",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Functional CSS is the practice of using small, immutable, and explicitly named utility classes to construct components.",
   "style": "dist/functional-css.min.css",
   "main": "dist/functional-css.min.css",
