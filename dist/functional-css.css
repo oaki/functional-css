@@ -30,6 +30,22 @@
   display: table-cell;
 }
 
+.ta-l {
+  text-align: left;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-j {
+  text-align: justify;
+}
+
 .ai-fs {
   align-items: flex-start;
 }
@@ -655,6 +671,22 @@
     display: table-cell;
   }
 
+  .xs-ta-l {
+    text-align: left;
+  }
+
+  .xs-ta-r {
+    text-align: right;
+  }
+
+  .xs-ta-c {
+    text-align: center;
+  }
+
+  .xs-ta-j {
+    text-align: justify;
+  }
+
   .xs-pos-r {
     position: relative;
   }
@@ -1075,6 +1107,22 @@
 
   .sm-d-tc {
     display: table-cell;
+  }
+
+  .sm-ta-l {
+    text-align: left;
+  }
+
+  .sm-ta-r {
+    text-align: right;
+  }
+
+  .sm-ta-c {
+    text-align: center;
+  }
+
+  .sm-ta-j {
+    text-align: justify;
   }
 
   .sm-pos-r {
@@ -1499,6 +1547,22 @@
     display: table-cell;
   }
 
+  .md-ta-l {
+    text-align: left;
+  }
+
+  .md-ta-r {
+    text-align: right;
+  }
+
+  .md-ta-c {
+    text-align: center;
+  }
+
+  .md-ta-j {
+    text-align: justify;
+  }
+
   .md-pos-r {
     position: relative;
   }
@@ -1919,6 +1983,22 @@
 
   .lg-d-tc {
     display: table-cell;
+  }
+
+  .lg-ta-l {
+    text-align: left;
+  }
+
+  .lg-ta-r {
+    text-align: right;
+  }
+
+  .lg-ta-c {
+    text-align: center;
+  }
+
+  .lg-ta-j {
+    text-align: justify;
   }
 
   .lg-pos-r {
