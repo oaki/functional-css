@@ -63,6 +63,11 @@ const rules = [
     breakpoints
   },
   {
+    name: "float",
+    values: ["left", "right"],
+    breakpoints
+  },
+  {
     name: "align-items",
     values: ["flex-start", "flex-end", "center", "baseline", "stretch"]
   },
